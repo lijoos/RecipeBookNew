@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li routerLinkActive="active" ><a routerLink='/recipes' *ngIf="isAuthenticatd">Recipes</a></li>
-        <li routerLinkActive="active" ><a routerLink='/shopping-list' (click)="onSelect('shopping-list')">Shopping List</a></li>
+        <li routerLinkActive="active" ><a routerLink='/shopping-list' >Shopping List</a></li>
         <li routerLinkActive="active" ><a routerLink='/auth' *ngIf="!isAuthenticatd">Authenticate</a></li>
    
       </ul>
